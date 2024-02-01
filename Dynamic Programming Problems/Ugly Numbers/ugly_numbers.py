@@ -52,7 +52,7 @@ def get_ugly_dynamic(n:int) -> int:
 def get_int_user():
     while(True):
         try:
-            n = int(input("Enter an ugly number: "))
+            n = int(input("Enter an index for ugly number: "))
             print("The entered number is:", n)
             break
         except ValueError:
