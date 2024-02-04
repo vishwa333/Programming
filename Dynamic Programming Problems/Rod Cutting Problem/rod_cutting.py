@@ -1,5 +1,5 @@
 
-
+#Dynamic
 def cut_rod(prices: list, length_of_rod: int) -> int:
     max_price_for_length = [0]*(length_of_rod+1) 
     #print(max_price_for_length)
