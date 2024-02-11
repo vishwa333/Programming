@@ -19,5 +19,5 @@ if __name__ == '__main__':
     for test_case in test_cases:
         print("------------------")
         print("Testing for test case:",test_case)
-        print("Longest Common SubSequence is of lenght : ",lis_dp(test_case))
+        print("Longest increasing SubSequence is of length : ",lis_dp(test_case))
         
